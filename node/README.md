@@ -14,11 +14,9 @@ sudo chmod 666 /var/run/docker.sock # change the permission too.
 ```
 ### for JAVA - optional
 this is optional, but in case if you get a Java path error in Jenkins, then you can use this method to resolve the issue.
-Find out java path using
-```sh
-readlink -f /usr/bin/javac | sed "s:/bin/javac::"
-set JAVA_HOME path into .bashrc
-```
+Find out java path using if
+``` readlink -f /usr/bin/javac | sed "s:/bin/javac::" ``` and ``` set JAVA_HOME path into .bashrc ```
+
 ```
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 PATH="$JAVA_HOME/bin:$PATH"
