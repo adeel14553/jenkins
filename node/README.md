@@ -1,5 +1,4 @@
-## How to work on jenkins on Linux. 
-## Installation and configurations
+## How to install and configure on jenkins on Linux. 
 
 ### required for nodejs
 ``` curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - ```
