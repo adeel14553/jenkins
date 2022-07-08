@@ -1,4 +1,5 @@
-## How to work on jenkins on ec2 server. Installation and configurations
+## How to work on jenkins on Linux. 
+## Installation and configurations
 
 ### required for nodejs
 ``` curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - ```
